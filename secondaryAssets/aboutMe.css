@@ -1,0 +1,16 @@
+nav {
+    /* display: inline-block!important; */
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+ul,li {
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-line: none;
+    color: var(--primary);
+}

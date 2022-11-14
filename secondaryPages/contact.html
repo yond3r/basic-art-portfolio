@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/secondaryAssets/contact.css" />
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a id = "contact" href="/secondaryPages/contact.html">&#10024;Contact Me&#10024;</a></li>
+                <li><a id = "art" href="/secondaryPages/art.html">&#10024;Art&#10024;</a></li>
+                <li><a id = "aboutMe" href="/secondaryPages/aboutme.html">&#10024;About Me&#10024;</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="blurb">
+        <h1>Contact Me</h1>
+        <h3>Please feel free to ask me anything.</h3>
+        <p>(I'll let you know if it is doable.) (-:</p>
+    </section>
+
+    <form action="#" method="post" id="contact_form">
+        <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="My name is" name="name" id="name_input" required>
+        </div>
+        <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+        </div>
+        <div class="telephone">
+            <label for="name"></label>
+            <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+        </div>
+        <div class="subject">
+            <label for="subject"></label>
+            <select placeholder="Subject line" name="subject" id="subject_input" required>
+                <option disabled hidden selected>Subject line</option>
+                <option>I'd like to start a commission!</option>
+                <option>I'd like to ask a about a freelance project!</option>
+                <option>I'd like to ask a question!</option>
+            </select>
+        </div>
+        <div class="message">
+            <label for="message"></label>
+            <textarea name="message" placeholder="place message here" id="message_input" cols="30" rows="5"
+                required></textarea>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Send Message" id="form_button" />
+        </div>
+    </form>
+</body>
+</html>

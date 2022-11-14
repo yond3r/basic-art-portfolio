@@ -1,0 +1,266 @@
+* {
+    background-color:#202020;
+    /* font-family: 'Ruda', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+}
+
+:root {
+    --primary: #f8f8ff;
+}
+
+nav {
+    /* display: inline-block!important; */
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+    /* text-decoration: underline; */
+    /* text-decoration-thickness: 5px;
+    text-decoration-line: none; */
+    color: var(--primary);
+}
+
+#blurb {
+    text-align: center;
+    justify-content: center;
+}
+
+div.name,
+div.email,
+div.telephone,
+div.subject,
+div.message,
+div.submit {
+    text-align: center;
+    justify-content: center;
+}
+
+/* @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400); */
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #707070;
+    font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+    color: #3F3F3F;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #707070;
+    font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+    color: #3F3F3F;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #707070;
+    font-size: 0.875em;
+}
+
+input:focus::placeholder,
+textarea::focus:placeholder {
+    color: #3F3F3F;
+}
+
+input::-ms-placeholder,
+textarea::-ms-placeholder {
+    color: #707070;
+    font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder,
+textarea:focus::-ms-placeholder {
+    color: #3F3F3F;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder,
+textarea:hover::-webkit-input-placeholder {
+    color: #707070;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder,
+textarea:hover:focus::-webkit-input-placeholder {
+    color: #707070;
+}
+
+input:hover::-moz-placeholder,
+textarea:hover::-moz-placeholder {
+    color: #707070;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder,
+textarea:hover:focus::-moz-placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+    color: #707070;
+    font-size: 0.875em;
+}
+
+input:hover:focus::placeholder,
+textarea:hover:focus::placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+    color: #707070;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder,
+textarea:hover::focus:-ms-placeholder {
+    color: #cbc6c1;
+}
+
+body {
+    /* font-family: 'Lato', sans-serif; */
+    /* background: #707070; */
+    color: #b3aca7;
+}
+
+header {
+    position: relative;
+    margin: 100px 0 25px 0;
+    font-size: 2.3em;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+a:link { text-decoration: none; color:#79B584; }
+
+
+a:visited { text-decoration: none; color:#79B584; }
+
+
+a:hover { text-decoration: none; color:#79B584; }
+
+
+a:active { text-decoration: none; color:#79B584; }
+
+#form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+
+input {
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+
+    background: transparent;
+    outline: none;
+    color: #e2dedb;
+
+    border: solid 1px #b3aca7;
+    border-bottom: none; 
+    /* I don't know if I love it without the border bottom? but WITH it, it also feels a lil ?? extra?? */
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+
+    background: transparent;
+    outline: none;
+
+    color: #e2dedb;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.875em;
+
+    border: solid 1px #b3aca7;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+#submit {
+    width: 502px;
+
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.875em;
+    color: #b3aca7;
+
+    outline: none;
+    cursor: pointer;
+
+    border: solid 1px #b3aca7;
+    border-top: none;
+}
+
+#submit:hover {
+    color: #e2dedb;
+}
+
+div.subject, select#select_input{
+    color: ghostwhite;
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+
+    background: transparent;
+    outline: none;
+    text-align: center;
+    justify-content: center;
+
+    color: #e2dedb;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.875em;
+
+    border: solid 1px #b3aca7;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
