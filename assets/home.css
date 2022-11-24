@@ -1,7 +1,9 @@
 * {
-    background-color: black;
+    background-color: rgb(255, 166, 1);
     font-family: 'Ruda', sans-serif;
     /* font-family: 'Roboto Slab', serif; */
+    background-image: url(../images/webpagev2.png);
+    background-size: 150px;
 }
 
 :root {
@@ -16,12 +18,13 @@
     width: 7%;
 }
 
-#title {
+#title,
+#location {
     color: #f8f8ff;
     margin-left: auto;
     text-align: center;
-    opacity: 20%;
-    padding: 5%;
+    opacity: 70%;
+    padding: 1.5%;
 }
 
 nav {
@@ -31,7 +34,8 @@ nav {
     position: relative;
 }
 
-ul,li {
+ul,
+li {
     list-style-type: none;
     float: right;
     padding: 10px;
@@ -39,4 +43,20 @@ ul,li {
     /* text-decoration-thickness: 5px; */
     text-decoration-line: none;
     color: var(--primary);
+}
+
+header {
+    position: relative;
+    margin: 100px 0 25px 0;
+    font-size: 2.3em;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #9d62b5;
 }

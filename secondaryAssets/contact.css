@@ -1,5 +1,5 @@
 * {
-    background-color:#202020;
+    background-color:#383636;
     /* font-family: 'Ruda', sans-serif; */
     font-family: 'Roboto Slab', serif;
 }
@@ -240,11 +240,12 @@ textarea:hover {
     color: #e2dedb;
 }
 
-div.subject, select#select_input{
+#div.subject, select#select_input{
+    background-color: #e2dedb;
     color: ghostwhite;
     width: 470px;
     max-width: 470px;
-    height: 110px;
+    /* height: 110px; */
     max-height: 110px;
     padding: 15px;
 
@@ -263,4 +264,11 @@ div.subject, select#select_input{
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
+}
+
+
+.home {
+    padding: 0;
+    border: none;
+    background: none;
 }
