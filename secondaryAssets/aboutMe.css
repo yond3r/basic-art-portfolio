@@ -14,7 +14,7 @@ nav {
 ul,
 li {
     list-style-type: none;
-    /* float: right; */
+    float: right;
     padding: 10px;
     /* text-decoration: underline; */
     /* text-decoration-thickness: 5px;
@@ -59,13 +59,17 @@ img#jovi {
     background: none;
 }
 
-ul.links, il.links, a {
+section.links, ul.links, il.links, a {
     list-style: none;
     padding: 10px;
     color: var(--primary);
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
+    display: inline-block;
+
+
 }
+
 
 @media screen and (max-width: 767px) {
     .links {
