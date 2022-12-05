@@ -1,5 +1,5 @@
 * {
-    background-image: radial-gradient(circle at 45%, #99A3B8, #9E99B8);
+    background-image: radial-gradient(circle at 5%, #99b8ad, #afd1b1);
 
 }
 
@@ -14,7 +14,7 @@ nav {
 ul,
 li {
     list-style-type: none;
-    float: right;
+    /* float: right; */
     padding: 10px;
     /* text-decoration: underline; */
     /* text-decoration-thickness: 5px;
@@ -35,21 +35,53 @@ a:visited,
 a:hover,
 a:active {
     text-decoration: none;
-    color: #9d62b5;
+    color: #034e01;
 }
 
 .container {
-    float: left;
+    /* float: left; */
+    display: block;
+    padding-top: 20%;
+    font-size: larger;
+
 }
 
 div.card,
-.jovi {
+.jovi,
+img#jovi {
     float: right;
-    display: block;
+    /* display: block; */
 }
 
 .home {
     padding: 0;
     border: none;
     background: none;
+}
+
+ul.links, il.links, a {
+    list-style: none;
+    padding: 10px;
+    color: var(--primary);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .links {
+        align-items: center;
+        width: 200px;
+    }
+
+    img#jovi {
+        width: 200px;
+        height: 300px;
+        align-items: center;
+    }
+
+    .container, p {
+        align-content: center;
+        text-align: center;
+        width: 400px;
+    }
 }

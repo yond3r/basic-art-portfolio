@@ -51,3 +51,9 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
+p {
+    font-size: larger;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}

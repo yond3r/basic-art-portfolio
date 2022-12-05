@@ -1,6 +1,6 @@
 * {
     /* background-color: rgb(48, 80, 80, .5); */
-    background-image: radial-gradient(circle at 45%, #99A3B8, #2044a1);
+    background-image: radial-gradient(circle at 30%, #859ccd, #95abe1);
 }
 
 nav {
@@ -36,7 +36,7 @@ a:visited,
 a:hover,
 a:active {
     text-decoration: none;
-    color: #C0CEE2;
+    color: #d5e0ee;
 }
 
 #cat,
@@ -80,4 +80,10 @@ a:active {
     padding: 0;
     border: none;
     background: none;
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
