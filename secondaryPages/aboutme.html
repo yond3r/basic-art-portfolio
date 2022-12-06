@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,16 +12,17 @@
 
 </html>
 <main>
-    <button class = "home" onclick ="location.href='../home.html'"><img src="../images/watermarkv1.png" height="7%" width="20%"></button>
+    <button class="home" onclick="location.href='../home.html'"><img src="../images/watermarkv1.png" height="7%"
+            width="20%"></button>
 </main>
 
 <header class="navbar">
     <nav>
         <ul>
-            <li><a id = "contact" href="../secondaryPages/contact.html">&#10024;Contact Me&#10024;</a></li>
-            <li><a id = "art" href="../secondaryPages/art.html">&#10024;Art&#10024;</a></li>
-            <li><a id = "aboutMe" href="../secondaryPages/aboutme.html">&#10024;About Me&#10024;</a></li>
-            <li><a id = "logos" href="../secondaryPages/banners-logo.html">&#10024;Logos & Banners&#10024;</a></li>
+            <li><a id="contact" href="../secondaryPages/contact.html">&#10024;Contact Me&#10024;</a></li>
+            <li><a id="art" href="../secondaryPages/art.html">&#10024;Art&#10024;</a></li>
+            <li><a id="aboutMe" href="../secondaryPages/aboutme.html">&#10024;About Me&#10024;</a></li>
+            <li><a id="logos" href="../secondaryPages/banners-logo.html">&#10024;Logos & Banners&#10024;</a></li>
         </ul>
     </nav>
 </header>
@@ -30,7 +32,7 @@
     <div class="row">
         <div class="column">
             <div class="card">
-                <img id = "jovi" src="../images/joviport.png">
+                <img id="jovi" src="../images/joviport.png">
                 <section class="container">
                     <h2>Jovi Barrow-Mokarzel</h2>
                     <p>Palo santo air plant microdosing kale chips iceland tonx seitan man bun health goth heirloom
@@ -41,17 +43,51 @@
                     <section class="links">
                         <break></break>
                         <ul>
-                           <li><i class="fa-solid fa-mug-saucer"><a href="https://ko-fi.com/waxwings">Kofi</i></li></a>
-                        <!-- add link!!! -->
-                        <break></break>
-                           <li><i class="fa-solid fa-camera-retro"><a href="https://www.instagram.com/waxwingsart/">Instagram</i></li></a> 
-                        <!-- add link!!! -->
-                        <break></break>
-                            <li><i class="fa-brands fa-github"></i></i><a href="https://github.com/yond3r"></i>GitHub</i></li></a>
-                        <!-- add link!!! -->
-                        <break></break>
-                        </ul>
+                            <li><i class="fa-solid fa-mug-saucer"><a href="https://ko-fi.com/waxwings">Kofi</i></li></a>
+                            <!-- add link!!! -->
+                            <break></break>
+                            <li><i class="fa-solid fa-camera-retro"><a
+                                        href="https://www.instagram.com/waxwingsart/">Instagram</i></li></a>
+                            <!-- add link!!! -->
+                            <break></break>
+                            <li><i class="fa-brands fa-github"></i></i><a
+                                    href="https://github.com/yond3r"></i>GitHub</i></li></a>
+                            <!-- add link!!! -->
+                            <break></break>
                     </section>
+
+                    <section class="music-playlist">
+                        <h2>Jovi's Top 4:</h2>
+                        <div class="music-container" id="music-container">
+                            <div class="music-info">
+                                <h4 id="title"></h4>
+                                <div class="progress-container" id="progress-container">
+                                    <div class="progress" id="progress"></div>
+                                </div>
+                            </div>
+
+                            <audio src="../music/Talk.mp3" id="audio"></audio>
+
+                            <!-- <div class="img-container">
+                                <img src="" alt="music-cover" id="cover" /> -->
+                            <!-- </div> --> 
+                            <div class="navigation">
+                                <button id="prev" class="action-btn">
+                                    <i class="fas fa-backward"></i>
+                                </button>
+                                <button id="play" class="action-btn action-btn-big">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button id="next" class="action-btn">
+                                    <i class="fas fa-forward"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <script src="../secondaryAssets/aboutMe.js"></script>
+                    </ul>
+                </section>
                 </section>
             </div>
         </div>
